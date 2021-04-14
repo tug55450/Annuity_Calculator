@@ -1,5 +1,7 @@
 import logo from './CalculatorImage.jpg';
 import './App.css';
+import TextField from '@material-ui/core/TextField';
+import Button from '@material-ui/core/Button';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Calculator
         </a>
+        <TextField variant='outlined' />
+        <Button onClick={() => console.log('click me')}>Click me</Button>
       </header>
     </div>
   );
